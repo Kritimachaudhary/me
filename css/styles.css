@@ -1,0 +1,144 @@
+@media only screen and (max-width: 700px) {
+    .mountain-img {
+        width: 100%;
+    }
+
+    .first2heading {
+        clear: left;
+    }
+
+    .second2heading {
+        clear: right;
+    }
+
+    .skillsrow-img1 {
+        margin-top: 20px;
+    }
+
+    .skillsrow-img2 {
+        display: block;
+        margin-left: 400px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .middle-container {
+        margin-top: 20px;
+    }
+}
+
+body {
+    margin: 0;
+    background-color: rgb(232, 250, 243);
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+.top-container {
+    background-color: rgb(127, 236, 213);
+    text-align: center;
+    position: relative;
+    padding-top: 80px;
+    margin-bottom: 40px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 150px;
+    top: 30px;
+    width: 200px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 150px;
+    bottom: 290px;
+    width: 200px;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    color: #17c3bd;
+    font-size: 5.625rem;
+    margin: 10px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #17c3bd;
+    line-height: 2;
+}
+
+hr {
+    width: 60px;
+    margin: 0 auto;
+    border-top: 10px dotted black;
+}
+
+.myimg {
+    width: 230px;
+}
+
+.middle-container {
+    padding-top: 50px;
+}
+
+.skillsrow {
+    width: 50%;
+    margin: 0 auto;
+    line-height: 2;
+    text-align: left;
+    margin-bottom: 50px;
+
+}
+
+.skillsrow-img1,
+.skillsrow-img2 {
+    width: 200px;
+}
+
+.skillsrow-img1 {
+    float: left;
+    margin-right: 20px;
+}
+
+.skillsrow-img2 {
+    float: right;
+    margin-left: 20px;
+}
+
+.bottom-container {
+    background-color: rgb(127, 236, 213);
+    padding: 05px;
+    color: rgb(87, 87, 87);
+}
+
+.bottom-container a {
+    text-decoration: none;
+    margin: 0;
+    color: rgb(139, 171, 176);
+    margin-left: 10px;
+}
+
+.bottom-container button {
+    display: block;
+    width: 100px;
+    margin: 0px auto;
+    margin-top: 15px;
+    height: 35px;
+    border-radius: 30px;
+    background-image: linear-gradient(30deg, rgb(107, 235, 199), rgb(31, 245, 170));
+    border: 1px solid white;
+}
+
+.bottom-container button:hover {
+    background-image: linear-gradient(30deg, rgb(50, 251, 194), rgb(23, 249, 109));
+    border: 1px solid rgb(134, 134, 134);
+}
+
+.bottom-container h2 {
+    margin: 0;
+    padding: 0;
+}
